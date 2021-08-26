@@ -18,3 +18,8 @@ export default (state = {}, action) => {
     return state;
   }
 };
+
+// action = 'delete a ticket', id
+// dispatch(action);
+// dispatch --> reducer --> looks for a matching 'type'
+// if the type matches, then it runs the code attached to the action, updates the store
